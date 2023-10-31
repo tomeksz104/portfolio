@@ -2,7 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* @layer base {
+  @font-face {
+    font-family: LandryGothic;
+    font-weight: 400;
+    src: url(/fonts/LandryGothic.TTF) format("ttf");
+  }
+} */
+
+@font-face {
+  font-family: "LandryGothic";
+  src: url("/fonts/LandryGothic.TTF");
+}
+
+@font-face {
+  font-family: "GochiHand";
+  src: url("/fonts/GochiHand-Regular.TTF");
+}
+
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,4 +42,27 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+
+#toggle_nav:checked ~ div #hamburger #line {
+  @apply translate-y-1.5 rotate-45;
+}
+
+#toggle_nav:checked ~ div #hamburger #line2 {
+  @apply -translate-y-1 -rotate-45;
+}
+
+.toggled div:first-child {
+  @apply translate-y-1.5 rotate-45;
+}
+.toggled div:last-child {
+  @apply -translate-y-1 -rotate-45;
+}
+
+.twice-circle {
+  transform-style: preserve-3d;
+}
+
+.twice-circle:before {
+  transform: translateZ(-1px);
 }
