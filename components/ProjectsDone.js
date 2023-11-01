@@ -19,34 +19,35 @@ const ProjectsDone = () => {
                 Tour is an interactive map where you can find interesting places
                 to visit during your weekend trip!
               </p>
-              <div className="flex items-center gap-3 mt-5">
-                <div className="flex flex-wrap items-center justify-center mt-10 gap-10 lg:justify-start">
-                  <Button
-                    href="https://github.com/tomeksz104/Tour"
-                    className="before:bg-[#adff00]"
-                    classes="flex items-center gap-3"
+              <div className="flex flex-wrap items-center justify-center mt-10 gap-10 lg:justify-start">
+                <Button
+                  href="https://github.com/tomeksz104/Tour"
+                  className="before:bg-[#adff00]"
+                  classes="flex items-center gap-2 sm:gap-3"
+                >
+                  <span className="bg-white rounded-full p-1.5">
+                    <img
+                      src="/icons/github.svg"
+                      className="h-4 w-4 sm:h-5 sm:w-5"
+                    />
+                  </span>
+                  GitHub
+                </Button>
+                <div className="flex gap-3 sm:gap-4">
+                  <a
+                    target="_blank"
+                    className="relative flex items-center justify-center font-semibold text-xs sm:text-base text-black gap-8 group"
+                    aria-label="Live Preview Cryptotracker project"
+                    href="https://tour-tomeksz104.vercel.app/"
                   >
-                    <span className="bg-white rounded-full p-1.5">
-                      <img src="/icons/github.svg" className="h-5 w-5" />
+                    <span className="twice-circle relative flex items-center justify-center rounded-full p-1.5 transition-all duration-300 before:transition-all before:duration-300 group-hover:ml-3 bg-[#754af8] before:content-[''] before:absolute before:border before:border-black before:ml-10 group-hover:before:ml-0 before:h-full before:w-full before:rounded-full">
+                      <img
+                        src="/icons/arrow-white.svg"
+                        className="h-5 w-5 sm:h-6 sm:w-6 rotate-45 text-white fill-white"
+                      />
                     </span>
-                    GitHub
-                  </Button>
-                  <div className="flex gap-3 sm:gap-4">
-                    <a
-                      target="_blank"
-                      className="relative flex items-center justify-center font-semibold text-black gap-8 group"
-                      aria-label="Live Preview Tour project"
-                      href="https://tour-tomeksz104.vercel.app/"
-                    >
-                      <span className="twice-circle relative flex items-center justify-center rounded-full p-1.5 transition-all duration-300 before:transition-all before:duration-300 group-hover:ml-3 bg-[#754af8] before:content-[''] before:absolute before:border before:border-black before:ml-10 group-hover:before:ml-0 before:h-full before:w-full before:rounded-full">
-                        <img
-                          src="/icons/arrow-white.svg"
-                          className="h-6 w-6 rotate-45 text-white fill-white"
-                        />
-                      </span>
-                      Live Preview
-                    </a>
-                  </div>
+                    Live Preview
+                  </a>
                 </div>
               </div>
             </div>
@@ -91,24 +92,27 @@ const ProjectsDone = () => {
                   <Button
                     href="https://github.com/tomeksz104/CryptoTracker"
                     className="before:bg-[#adff00]"
-                    classes="flex items-center gap-3"
+                    classes="flex items-center gap-2 sm:gap-3"
                   >
                     <span className="bg-white rounded-full p-1.5">
-                      <img src="/icons/github.svg" className="h-5 w-5" />
+                      <img
+                        src="/icons/github.svg"
+                        className="h-4 w-4 sm:h-5 sm:w-5"
+                      />
                     </span>
                     GitHub
                   </Button>
                   <div className="flex gap-3 sm:gap-4">
                     <a
                       target="_blank"
-                      className="relative flex items-center justify-center font-semibold text-black gap-8 group"
+                      className="relative flex items-center justify-center font-semibold text-xs sm:text-base text-black gap-8 group"
                       aria-label="Live Preview Cryptotracker project"
                       href="https://tomeksz104.github.io/CryptoTracker/"
                     >
                       <span className="twice-circle relative flex items-center justify-center rounded-full p-1.5 transition-all duration-300 before:transition-all before:duration-300 group-hover:ml-3 bg-[#754af8] before:content-[''] before:absolute before:border before:border-black before:ml-10 group-hover:before:ml-0 before:h-full before:w-full before:rounded-full">
                         <img
                           src="/icons/arrow-white.svg"
-                          className="h-6 w-6 rotate-45 text-white fill-white"
+                          className="h-5 w-5 sm:h-6 sm:w-6 rotate-45 text-white fill-white"
                         />
                       </span>
                       Live Preview

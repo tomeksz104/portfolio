@@ -22,18 +22,24 @@ const HeroSection = () => {
                 classes="flex items-center gap-3"
               >
                 <span className="bg-white rounded-full p-1.5">
-                  <img src="/icons/hand-waving.svg" className="h-5 w-5" />
+                  <img
+                    src="/icons/hand-waving.svg"
+                    className="h-4 w-4 sm:h-5 sm:w-5"
+                  />
                 </span>
                 Let's Talk
               </Button>
               <div className="flex gap-3 sm:gap-4">
                 <a
-                  className="relative flex items-center justify-center text-white gap-8 group"
+                  className="relative flex items-center justify-center text-xs text-white gap-8 group"
                   aria-label="Download CV"
                   href="#"
                 >
                   <span className="relative flex items-center justify-center rounded-full p-1.5 transition-all duration-300 before:-z-10 before:transition-all before:duration-300 group-hover:ml-3 bg-[#adff00] before:content-[''] before:absolute before:border before:border-white before:ml-10 group-hover:before:ml-0 before:h-full before:w-full before:rounded-full">
-                    <img src="/icons/arrow.svg" className="h-6 w-6 rotate-45" />
+                    <img
+                      src="/icons/arrow.svg"
+                      className="h-5 w-5 sm:h-6 sm:w-6 rotate-45"
+                    />
                   </span>
                   Download CV
                 </a>
