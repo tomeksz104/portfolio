@@ -18,7 +18,7 @@ const ToolsUsed = () => {
           ></path>
         </svg>
         <span className="inline-block w-48 transform font-gochihand text-[22px] tracking-wide text-slate-600 lg:text-2xl lg:leading-8">
-          The tools I use on my day-to-day
+          The tools I use on my projects
         </span>
       </div>
       <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-slate-50/90 shadow-sm	shadow-sky-100 ring ring-slate-100 sm:h-[88px] sm:w-[88px] mt-0">

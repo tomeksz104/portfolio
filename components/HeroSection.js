@@ -41,14 +41,14 @@ const HeroSection = () => {
             </div>
           </div>
           <div className="w-full max-w-lg mx-auto lg:absolute lg:right-0 lg:bottom-0 lg:mr-0 mt-10 -mb-96">
-            <div className="relative aspect-h-6 aspect-w-4 rounded-lg">
+            <div className="relative rounded-lg">
+              {/* <div className="relative aspect-h-6 aspect-w-4 rounded-lg"> */}
               <img
                 alt=""
                 fetchPriority="high"
                 decoding="async"
                 className="w-full h-full rounded-lg"
                 style={{
-                  position: "absolute",
                   height: "100%",
                   width: "100%",
                   left: 0,
@@ -58,7 +58,7 @@ const HeroSection = () => {
                   color: "transparent",
                 }}
                 sizes="(min-width: 552px) 32rem, calc(100vw - 2.5rem)"
-                src="/img/hero-photo.png"
+                src="/img/hero-photo-tomek.png"
               />
             </div>
           </div>

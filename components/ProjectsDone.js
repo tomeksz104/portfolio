@@ -100,7 +100,7 @@ const ProjectsDone = () => {
                   color: "transparent",
                 }}
                 sizes="(min-width: 1280px) 43rem, (min-width: 1024px) calc(50vw - 3.5rem), (min-width: 640px) 32rem, calc(100vw - 4.5rem)"
-                src="https://jane-next-obfuscated-preview.vercel.app/_next/image?url=%2Fimages%2Fcase_studies%2Fcase-study-01.jpg&w=750&q=75"
+                src="/img/tour-project.png"
               />
             </a>
           </div>
@@ -195,7 +195,7 @@ const ProjectsDone = () => {
                   color: "transparent",
                 }}
                 sizes="(min-width: 1280px) 43rem, (min-width: 1024px) calc(50vw - 3.5rem), (min-width: 640px) 32rem, calc(100vw - 4.5rem)"
-                src="https://jane-next-obfuscated-preview.vercel.app/_next/image?url=%2Fimages%2Fcase_studies%2Fcase-study-01.jpg&w=750&q=75"
+                src="/img/cryptotracker-project.png"
               />
             </a>
           </div>
