@@ -12,36 +12,6 @@ const ProjectsDone = () => {
         <div className="relative max-w-xl mx-auto mt-16 space-y-16 lg:mx-0 lg:max-w-none">
           <div className="relative grid items-center gap-8 px-4 pt-5 overflow-hidden shadow-sm rounded-2xl bg-white pb-14 ring-1 ring-slate-300 sm:gap-12 sm:px-8 sm:pt-8 lg:grid-cols-12 lg:px-0 lg:py-0 xl:gap-16 xl:pt-16">
             <div className="relative order-2 px-1 sm:px-4 lg:order-1 lg:col-[span_6/span_6] lg:pb-16 lg:pl-12 lg:pt-16 xl:col-[span_5/span_5] xl:pb-24 xl:pl-16 xl:pt-8">
-              <div className="inline-flex items-center gap-2.5  text-sm	 font-medium leading-[16px] text-sky-900/80 sm:text-base">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                  className="w-4 h-4 text-sky-900/75"
-                >
-                  <g
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="1.75"
-                    transform="translate(0.5 0.5)"
-                    fill="none"
-                    stroke="currentColor"
-                  >
-                    <path
-                      d="M10,11.01l8.378-8.389a2.122,2.122,0,0,1,3,0h0a2.122,2.122,0,0,1,0,3L13,14"
-                      stroke="currentColor"
-                    ></path>
-                    <path
-                      d="M7.514,11.941a3.214,3.214,0,1,1,4.545,4.545C10.8,17.74,6,18,6,18S6.26,13.2,7.514,11.941Z"
-                      stroke="currentColor"
-                    ></path>
-                    <polyline points="12 2 2 2 2 22 22 22 22 12"></polyline>
-                  </g>
-                </svg>
-                Branding
-              </div>
               <h3 className="mt-5 text-2xl font-medium OTHER_FONT text-slate-900 sm:mt-6 sm:text-3xl">
                 Tour
               </h3>
@@ -52,6 +22,7 @@ const ProjectsDone = () => {
               <div className="flex items-center gap-3 mt-5">
                 <div className="flex flex-wrap items-center justify-center mt-10 gap-10 lg:justify-start">
                   <Button
+                    href="https://github.com/tomeksz104/Tour"
                     className="before:bg-[#adff00]"
                     classes="flex items-center gap-3"
                   >
@@ -62,9 +33,10 @@ const ProjectsDone = () => {
                   </Button>
                   <div className="flex gap-3 sm:gap-4">
                     <a
+                      target="_blank"
                       className="relative flex items-center justify-center font-semibold text-black gap-8 group"
-                      aria-label="Download CV"
-                      href="https://dribbble.com"
+                      aria-label="Live Preview Tour project"
+                      href="https://tour-tomeksz104.vercel.app/"
                     >
                       <span className="twice-circle relative flex items-center justify-center rounded-full p-1.5 transition-all duration-300 before:transition-all before:duration-300 group-hover:ml-3 bg-[#754af8] before:content-[''] before:absolute before:border before:border-black before:ml-10 group-hover:before:ml-0 before:h-full before:w-full before:rounded-full">
                         <img
@@ -106,36 +78,6 @@ const ProjectsDone = () => {
           </div>
           <div className="relative grid items-center gap-8 px-4 pt-5 overflow-hidden shadow-sm rounded-2xl bg-white pb-14 ring-1 ring-slate-300 sm:gap-12 sm:px-8 sm:pt-8 lg:grid-cols-12 lg:px-0 lg:py-0 xl:gap-16 xl:pt-16">
             <div className="relative order-2 px-1 sm:px-4 lg:col-[span_6/span_6] lg:pb-16 lg:pl-12 lg:pt-16 xl:col-[span_5/span_5] xl:pb-24 xl:pl-16 xl:pt-8">
-              <div className="inline-flex items-center gap-2.5  text-sm	 font-medium leading-[16px] text-sky-900/80 sm:text-base">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                  className="w-4 h-4 text-sky-900/75"
-                >
-                  <g
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="1.75"
-                    transform="translate(0.5 0.5)"
-                    fill="none"
-                    stroke="currentColor"
-                  >
-                    <path
-                      d="M10,11.01l8.378-8.389a2.122,2.122,0,0,1,3,0h0a2.122,2.122,0,0,1,0,3L13,14"
-                      stroke="currentColor"
-                    ></path>
-                    <path
-                      d="M7.514,11.941a3.214,3.214,0,1,1,4.545,4.545C10.8,17.74,6,18,6,18S6.26,13.2,7.514,11.941Z"
-                      stroke="currentColor"
-                    ></path>
-                    <polyline points="12 2 2 2 2 22 22 22 22 12"></polyline>
-                  </g>
-                </svg>
-                Branding
-              </div>
               <h3 className="mt-5 text-2xl font-medium OTHER_FONT text-slate-900 sm:mt-6 sm:text-3xl">
                 CryptoTracker
               </h3>
@@ -147,6 +89,7 @@ const ProjectsDone = () => {
               <div className="flex items-center gap-3 mt-5">
                 <div className="flex flex-wrap items-center justify-center mt-10 gap-10 lg:justify-start">
                   <Button
+                    href="https://github.com/tomeksz104/CryptoTracker"
                     className="before:bg-[#adff00]"
                     classes="flex items-center gap-3"
                   >
@@ -157,9 +100,10 @@ const ProjectsDone = () => {
                   </Button>
                   <div className="flex gap-3 sm:gap-4">
                     <a
+                      target="_blank"
                       className="relative flex items-center justify-center font-semibold text-black gap-8 group"
-                      aria-label="Download CV"
-                      href="https://dribbble.com"
+                      aria-label="Live Preview Cryptotracker project"
+                      href="https://tomeksz104.github.io/CryptoTracker/"
                     >
                       <span className="twice-circle relative flex items-center justify-center rounded-full p-1.5 transition-all duration-300 before:transition-all before:duration-300 group-hover:ml-3 bg-[#754af8] before:content-[''] before:absolute before:border before:border-black before:ml-10 group-hover:before:ml-0 before:h-full before:w-full before:rounded-full">
                         <img

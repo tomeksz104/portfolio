@@ -6,7 +6,7 @@ const HeroSection = () => {
       <section className="relative bg-black py-20 overflow-hidden lg:py-24 overflow-visible">
         <div className="mx-auto max-w-screen-xl px-5 sm:px-6 lg:px-8 relative z-10">
           <div className="flex flex-col items-center mx-auto lg:items-start">
-            <h1 className="text-4xl text-center font-landrygothic text-white sm:text-5xl lg:text-7xl lg:text-left uppercase">
+            <h1 className="text-4xl text-center font-landrygothic text-white sm:text-5xl lg:text-7xl lg:text-left  uppercase">
               Coding with <br />
               <span className="lg:ml-16">🔥 passion, creating</span>
               <br /> with purpose
@@ -63,33 +63,26 @@ const HeroSection = () => {
             </div>
           </div>
           <div className="hidden lg:block w-full max-w-xl xl:max-w-2xl  absolute bottom-0 left-0 -mb-80 px-5 sm:px-6 lg:px-8">
-            <h3 className="text-lg font-semibold">Follow Me:</h3>
+            <h3 className="text-lg font-semibold">Check Me:</h3>
             <div className="mt-3 flex items-center gap-3">
               <a
                 className="flex shrink-0 items-center justify-center bg-white duration-200 border border-black rounded-full h-14 w-14 font-semibold hover:bg-[#adff00]"
-                aria-label="Follow on Instagram"
-                href="https://instagram.com"
+                aria-label="Check on GitHub"
+                href="#"
               >
-                Fb.
+                Git
               </a>
               <a
                 className="flex shrink-0 items-center justify-center bg-white duration-200 border border-black rounded-full h-14 w-14 font-semibold hover:bg-[#adff00]"
-                aria-label="Follow on Twitter"
-                href="https://twitter.com"
-              >
-                Ig.
-              </a>
-              <a
-                className="flex shrink-0 items-center justify-center bg-white duration-200 border border-black rounded-full h-14 w-14 font-semibold hover:bg-[#adff00]"
-                aria-label="Follow on Twitter"
-                href="https://twitter.com"
+                aria-label="Check on Twitter"
+                href="#"
               >
                 Tw.
               </a>
               <a
                 className="flex shrink-0 items-center justify-center bg-white duration-200 border border-black rounded-full h-14 w-14 font-semibold hover:bg-[#adff00]"
-                aria-label="Follow on Twitter"
-                href="https://twitter.com"
+                aria-label="Check on LinkedIn"
+                href="#"
               >
                 In.
               </a>
