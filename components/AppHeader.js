@@ -33,6 +33,8 @@ const AppHeader = () => {
   };
 
   const handleClickScroll = async (section) => {
+    if (isToggled) setIsToggled((prevState) => !prevState);
+
     const element = document.getElementById(section);
 
     if (element) {
