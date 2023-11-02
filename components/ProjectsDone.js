@@ -3,7 +3,10 @@ import Button from "./Button";
 
 const ProjectsDone = () => {
   return (
-    <section className="pt-8 pb-16 overflow-x-clip sm:pb-24 sm:pt-12 md:pt-16">
+    <section
+      id="projects"
+      className="projects pt-8 pb-16 overflow-x-clip sm:pb-24 sm:pt-12 md:pt-16"
+    >
       <div className="mx-auto max-w-screen-xl px-5 sm:px-6 lg:px-8 ">
         <h2 className="text-4xl font-semibold font-landrygothic text-slate-900 sm:text-5xl uppercase">
           Here's a glimpse of <br /> some exciting 👨‍💻 projects <br /> i've done

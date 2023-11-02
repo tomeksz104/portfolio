@@ -1,22 +1,24 @@
+"use client";
+
 import Link from "next/link";
 import Container from "./Container";
+import { useRouter } from "next/navigation";
 
-export const links = [
-  {
-    to: "/",
-    label: "Home",
-  },
-  {
-    to: "/contact",
-    label: "About",
-  },
-  {
-    to: "/projects",
-    label: "Projects",
-  },
-];
+import { links } from "./AppHeader";
 
 const AppFooter = () => {
+  const router = useRouter();
+
+  const handleClickScroll = async (section) => {
+    const element = document.getElementById(section);
+
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    } else {
+      router.push("/");
+    }
+  };
+
   return (
     <footer className="bg-black mt-auto">
       <Container>
@@ -40,12 +42,15 @@ const AppFooter = () => {
               <ul className="space-x-6">
                 {links.map((link, index) => (
                   <li key={index} className="inline-block">
-                    <a
+                    <button
+                      onClick={() => {
+                        handleClickScroll(link.section);
+                      }}
                       className="text-gray-300 hover:text-white"
                       href={link.to}
                     >
                       {link.label}
-                    </a>
+                    </button>
                   </li>
                 ))}
               </ul>

@@ -10,13 +10,13 @@ const ContactPage = () => {
     <section className="flex-1">
       <Container>
         <div className="w-full mx-auto pt-56">
-          <h1 class="text-4xl text-center font-landrygothic text-black uppercase">
+          <h1 className="text-4xl text-center font-landrygothic text-black uppercase">
             Choose your way to contact me
           </h1>
-          <div class="w-full justify-center mx-auto mt-24 flex items-center gap-3">
+          <div className="w-full justify-center mx-auto mt-24 flex items-center gap-3">
             <a
               target="_blank"
-              class="flex shrink-0 items-center justify-center bg-white duration-200 border border-black rounded-full gap-3 h-14 px-6 font-semibold hover:bg-[#adff00]"
+              className="flex shrink-0 items-center justify-center bg-white duration-200 border border-black rounded-full gap-3 h-14 px-6 font-semibold hover:bg-[#adff00]"
               aria-label="Contact with Discord"
               href="https://discord.gg/UHUt9ahn"
             >
@@ -25,7 +25,7 @@ const ContactPage = () => {
             </a>
             <a
               target="_blank"
-              class="flex shrink-0 items-center justify-center bg-white duration-200 border border-black rounded-full gap-3 h-14 px-6 font-semibold hover:bg-[#adff00]"
+              className="flex shrink-0 items-center justify-center bg-white duration-200 border border-black rounded-full gap-3 h-14 px-6 font-semibold hover:bg-[#adff00]"
               aria-label="Contact with LinkedIn"
               href="https://www.linkedin.com/in/tomasz-szamocki-5679a6208/"
             >
@@ -33,7 +33,7 @@ const ContactPage = () => {
               LinkedIn
             </a>
             <a
-              class="flex shrink-0 items-center justify-center bg-white duration-200 border border-black rounded-full gap-3 h-14 px-6 font-semibold hover:bg-[#adff00]"
+              className="flex shrink-0 items-center justify-center bg-white duration-200 border border-black rounded-full gap-3 h-14 px-6 font-semibold hover:bg-[#adff00]"
               aria-label="Contact with E-mail"
               href="mailto:tomeksz104@gmail.com"
             >
@@ -45,7 +45,7 @@ const ContactPage = () => {
             </a>
             <button
               onClick={() => copy("tomeksz104@gmail.com")}
-              class="flex shrink-0 items-center justify-center bg-white duration-200 border border-black rounded-full gap-3 h-14 px-6 font-semibold hover:bg-[#adff00]"
+              className="flex shrink-0 items-center justify-center bg-white duration-200 border border-black rounded-full gap-3 h-14 px-6 font-semibold hover:bg-[#adff00]"
               aria-label="Copy e-mail tomeksz104@gmail.com"
             >
               tomeksz104@gmail.com

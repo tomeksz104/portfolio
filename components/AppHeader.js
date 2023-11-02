@@ -4,27 +4,42 @@ import { useState } from "react";
 import Container from "./Container";
 import Button from "./Button";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 export const links = [
   {
     to: "/",
+    section: "home",
     label: "Home",
   },
   {
     to: "/about",
+    section: "about",
     label: "About",
   },
   {
     to: "/projects",
+    section: "projects",
     label: "Projects",
   },
 ];
 
 const AppHeader = () => {
+  const router = useRouter();
   const [isToggled, setIsToggled] = useState(false);
 
   const handleToggleMenu = () => {
     setIsToggled((prevState) => !prevState);
+  };
+
+  const handleClickScroll = async (section) => {
+    const element = document.getElementById(section);
+
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    } else {
+      router.push("/");
+    }
   };
 
   return (
@@ -84,12 +99,14 @@ const AppHeader = () => {
                 <ul className="flex flex-col gap-6 tracking-wide lg:flex-row lg:gap-0 lg:text-sm">
                   {links.map((link, index) => (
                     <li key={index}>
-                      <a
-                        href={link.to}
+                      <button
+                        onClick={() => {
+                          handleClickScroll(link.section);
+                        }}
                         className="lg:hover:text-white block transition md:px-4"
                       >
                         <span>{link.label}</span>
-                      </a>
+                      </button>
                     </li>
                   ))}
                 </ul>

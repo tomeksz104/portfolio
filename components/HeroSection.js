@@ -3,7 +3,10 @@ import Button from "./Button";
 const HeroSection = () => {
   return (
     <>
-      <section className="relative bg-black py-20 overflow-hidden lg:py-24 overflow-visible">
+      <section
+        id="home"
+        className="home relative bg-black py-20 overflow-hidden lg:py-24 overflow-visible"
+      >
         <div className="mx-auto max-w-screen-xl px-5 sm:px-6 lg:px-8 relative z-10">
           <div className="flex flex-col items-center mx-auto lg:items-start">
             <h1 className="text-4xl text-center font-landrygothic text-white sm:text-5xl lg:text-7xl lg:text-left  uppercase">
