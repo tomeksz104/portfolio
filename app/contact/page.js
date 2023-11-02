@@ -9,7 +9,7 @@ const ContactPage = () => {
   return (
     <section className="flex-1">
       <Container>
-        <div className="w-full mx-auto pt-56">
+        <div className="w-full mx-auto py-56">
           <h1 className="text-4xl text-center font-landrygothic text-black uppercase">
             Choose your way to contact me
           </h1>
