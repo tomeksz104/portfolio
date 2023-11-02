@@ -16,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html className="relative min-h-full" lang="en">
-      <body className={`${inter.className} h-full`}>
+      <body className={`${inter.className} flex flex-col min-h-screen`}>
         <AppHeader />
         <LineWrap />
         {children}

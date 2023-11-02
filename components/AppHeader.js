@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Container from "./Container";
 import Button from "./Button";
+import Link from "next/link";
 
 export const links = [
   {
@@ -10,7 +11,7 @@ export const links = [
     label: "Home",
   },
   {
-    to: "/contact",
+    to: "/about",
     label: "About",
   },
   {
@@ -28,22 +29,22 @@ const AppHeader = () => {
 
   return (
     <header>
-      <nav className="absolute z-50 w-full border-b border-black/5 dark:border-white/5 lg:border-transparent">
+      <nav className="absolute z-50 w-full bg-black border-b border-black/5 dark:border-white/5 lg:border-transparent">
         <Container>
           <div className="relative flex flex-wrap items-center justify-between gap-6 py-3 md:gap-0 md:py-4">
             <div className="relative z-20 flex w-full justify-between md:px-0 lg:w-max">
-              <a
+              <Link
                 aria-current="page"
                 className="flex items-center gap-5 text-white mr-5 cursor-pointer font-landrygothic"
-                href="#/"
+                href="/"
               >
                 <img
                   className="h-8 object-cover -rotate-45"
                   src="/img/ts-logo.png"
-                  alt="Crypto Currency App Logo"
+                  alt="Tomasz Szamocki logo"
                 />
                 TOMASZ SZAMOCKI
-              </a>
+              </Link>
 
               <div className="relative flex max-h-10 items-center lg:hidden">
                 <button
@@ -95,7 +96,9 @@ const AppHeader = () => {
               </div>
 
               <div className="mt-12 lg:mt-0">
-                <Button className="before:bg-[#adff00]">Contact Me</Button>
+                <Button onClickTo="/contact" className="before:bg-[#adff00]">
+                  Contact Me
+                </Button>
               </div>
             </div>
           </div>

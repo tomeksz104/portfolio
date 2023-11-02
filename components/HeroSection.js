@@ -18,6 +18,7 @@ const HeroSection = () => {
             </p>
             <div className="flex flex-wrap items-center justify-center mt-10 gap-10 lg:justify-start">
               <Button
+                onClickTo="/contact"
                 className="before:bg-[#adff00]"
                 classes="flex items-center gap-3"
               >

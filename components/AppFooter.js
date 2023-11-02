@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Container from "./Container";
 
 export const links = [
@@ -17,23 +18,23 @@ export const links = [
 
 const AppFooter = () => {
   return (
-    <footer className="bg-black">
+    <footer className="bg-black mt-auto">
       <Container>
         <div className="py-[30px]">
           <div className="grid items-center gap-12 grid-cols-1 md:grid-cols-2">
             <div className="mx-auto lg:mx-0 justify-center md:text-left">
-              <a
+              <Link
                 aria-current="page"
                 className="flex items-center gap-5 text-white mr-5 cursor-pointer font-landrygothic"
-                href="#/"
+                href="/"
               >
                 <img
                   className="h-8 object-cover -rotate-45"
                   src="/img/ts-logo.png"
-                  alt="Crypto Currency App Logo"
+                  alt="Tomasz Szamocki logo"
                 />
                 TOMASZ SZAMOCKI
-              </a>
+              </Link>
             </div>
             <div className="text-center md:text-end lg:text-sm">
               <ul className="space-x-6">
