@@ -5,6 +5,7 @@ import Container from "./Container";
 import Button from "./Button";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 
 export const links = [
   {
@@ -55,10 +56,13 @@ const AppHeader = () => {
                 className="flex items-center gap-5 text-white mr-5 cursor-pointer font-landrygothic"
                 href="/"
               >
-                <img
-                  className="h-8 object-cover -rotate-45"
-                  src="/img/ts-logo.png"
+                <Image
                   alt="Tomasz Szamocki logo"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  src="/img/ts-logo.png"
+                  className="h-8 w-8 object-cover -rotate-45"
                 />
                 TOMASZ SZAMOCKI
               </Link>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Button from "./Button";
 
 const HeroSection = () => {
@@ -26,7 +27,11 @@ const HeroSection = () => {
                 classes="flex items-center gap-3"
               >
                 <span className="bg-white rounded-full p-1.5">
-                  <img
+                  <Image
+                    alt=""
+                    width={0}
+                    height={0}
+                    sizes="100vw"
                     src="/icons/hand-waving.svg"
                     className="h-4 w-4 sm:h-5 sm:w-5"
                   />
@@ -40,7 +45,11 @@ const HeroSection = () => {
                   href="#"
                 >
                   <span className="relative flex items-center justify-center rounded-full p-1.5 transition-all duration-300 before:-z-10 before:transition-all before:duration-300 group-hover:ml-3 bg-[#adff00] before:content-[''] before:absolute before:border before:border-white before:ml-10 group-hover:before:ml-0 before:h-full before:w-full before:rounded-full">
-                    <img
+                    <Image
+                      alt=""
+                      width={0}
+                      height={0}
+                      sizes="100vw"
                       src="/icons/arrow.svg"
                       className="h-5 w-5 sm:h-6 sm:w-6 rotate-45"
                     />
@@ -52,11 +61,11 @@ const HeroSection = () => {
           </div>
           <div className="w-full max-w-lg mx-auto lg:absolute lg:right-0 lg:bottom-0 lg:mr-0 mt-10 -mb-96">
             <div className="relative rounded-lg">
-              {/* <div className="relative aspect-h-6 aspect-w-4 rounded-lg"> */}
-              <img
-                alt=""
-                fetchPriority="high"
-                decoding="async"
+              <Image
+                width={0}
+                height={0}
+                sizes="(min-width: 552px) 32rem, calc(100vw - 2.5rem)"
+                src="/img/hero-photo-tomek.png"
                 className="w-full h-full rounded-lg"
                 style={{
                   height: "100%",
@@ -67,8 +76,6 @@ const HeroSection = () => {
                   bottom: 0,
                   color: "transparent",
                 }}
-                sizes="(min-width: 552px) 32rem, calc(100vw - 2.5rem)"
-                src="/img/hero-photo-tomek.png"
               />
             </div>
           </div>

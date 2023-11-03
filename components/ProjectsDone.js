@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Button from "./Button";
+import Image from "next/image";
 
 const ProjectsDone = () => {
   return (
@@ -29,7 +30,10 @@ const ProjectsDone = () => {
                   classes="flex items-center gap-2 sm:gap-3"
                 >
                   <span className="bg-white rounded-full p-1.5">
-                    <img
+                    <Image
+                      width={0}
+                      height={0}
+                      sizes="100vw"
                       src="/icons/github.svg"
                       className="h-4 w-4 sm:h-5 sm:w-5"
                     />
@@ -44,7 +48,10 @@ const ProjectsDone = () => {
                     href="https://tour-tomeksz104.vercel.app/"
                   >
                     <span className="twice-circle relative flex items-center justify-center rounded-full p-1.5 transition-all duration-300 before:transition-all before:duration-300 group-hover:ml-3 bg-[#754af8] before:content-[''] before:absolute before:border before:border-black before:ml-10 group-hover:before:ml-0 before:h-full before:w-full before:rounded-full">
-                      <img
+                      <Image
+                        width={0}
+                        height={0}
+                        sizes="100vw"
                         src="/icons/arrow-white.svg"
                         className="h-5 w-5 sm:h-6 sm:w-6 rotate-45 text-white fill-white"
                       />
@@ -59,11 +66,12 @@ const ProjectsDone = () => {
               className="relative  group order-1 w-full h-full overflow-hidden dHctZ3JvdXA(NIEWIADOMO) aspect-h-9 aspect-w-16	 rounded-2xl  ring-1 ring-slate-100/75 lg:order-2 lg:col-[span_6/span_6] lg:rounded-l-none lg:rounded-r-none xl:col-[span_7/span_7] xl:rounded-tl-2xl"
               href="https://tour-tomeksz104.vercel.app/"
             >
-              <img
-                alt="Horizons in Perspective"
-                loading="lazy"
-                decoding="async"
-                data-nimg="fill"
+              <Image
+                alt="Tour Project"
+                width={0}
+                height={0}
+                sizes="(min-width: 1280px) 43rem, (min-width: 1024px) calc(50vw - 3.5rem), (min-width: 640px) 32rem, calc(100vw - 4.5rem)"
+                src="/img/tour-project.png"
                 className="absolute inset-x-0 bottom-0 object-cover object-top transition duration-300 top-16 group-hover:scale-105	"
                 style={{
                   position: "absolute",
@@ -75,8 +83,6 @@ const ProjectsDone = () => {
                   bottom: "0",
                   color: "transparent",
                 }}
-                sizes="(min-width: 1280px) 43rem, (min-width: 1024px) calc(50vw - 3.5rem), (min-width: 640px) 32rem, calc(100vw - 4.5rem)"
-                src="/img/tour-project.png"
               />
             </a>
           </div>
@@ -98,7 +104,10 @@ const ProjectsDone = () => {
                     classes="flex items-center gap-2 sm:gap-3"
                   >
                     <span className="bg-white rounded-full p-1.5">
-                      <img
+                      <Image
+                        width={0}
+                        height={0}
+                        sizes="100vw"
                         src="/icons/github.svg"
                         className="h-4 w-4 sm:h-5 sm:w-5"
                       />
@@ -113,7 +122,10 @@ const ProjectsDone = () => {
                       href="https://tomeksz104.github.io/CryptoTracker/"
                     >
                       <span className="twice-circle relative flex items-center justify-center rounded-full p-1.5 transition-all duration-300 before:transition-all before:duration-300 group-hover:ml-3 bg-[#754af8] before:content-[''] before:absolute before:border before:border-black before:ml-10 group-hover:before:ml-0 before:h-full before:w-full before:rounded-full">
-                        <img
+                        <Image
+                          width={0}
+                          height={0}
+                          sizes="100vw"
                           src="/icons/arrow-white.svg"
                           className="h-5 w-5 sm:h-6 sm:w-6 rotate-45 text-white fill-white"
                         />
@@ -129,11 +141,12 @@ const ProjectsDone = () => {
               className="relative group order-1 w-full h-full overflow-hidden dHctZ3JvdXA(NIEWIADOMO) aspect-h-9 aspect-w-16	rounded-2xl ring-1 ring-slate-100/75 lg:col-[span_6/span_6] lg:rounded-l-none lg:rounded-r-none xl:col-[span_7/span_7] xl:rounded-tr-2xl"
               href="https://tomeksz104.github.io/CryptoTracker"
             >
-              <img
-                alt="Horizons in Perspective"
-                loading="lazy"
-                decoding="async"
-                data-nimg="fill"
+              <Image
+                alt="CryptoTracker Project"
+                width={0}
+                height={0}
+                sizes="(min-width: 1280px) 43rem, (min-width: 1024px) calc(50vw - 3.5rem), (min-width: 640px) 32rem, calc(100vw - 4.5rem)"
+                src="/img/cryptotracker-project.png"
                 className="absolute inset-x-0 bottom-0 object-cover object-top transition duration-300 top-16 group-hover:scale-105	"
                 style={{
                   position: "absolute",
@@ -145,8 +158,6 @@ const ProjectsDone = () => {
                   bottom: "0",
                   color: "transparent",
                 }}
-                sizes="(min-width: 1280px) 43rem, (min-width: 1024px) calc(50vw - 3.5rem), (min-width: 640px) 32rem, calc(100vw - 4.5rem)"
-                src="/img/cryptotracker-project.png"
               />
             </a>
           </div>

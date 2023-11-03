@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const ToolsUsed = () => {
   return (
     <section className="relative flex justify-center mt-24 mb-16 pt-16 gap-x-12 overflow-x-clip sm:gap-x-16 lg:pt-12 lg:pb-14">
@@ -22,146 +24,124 @@ const ToolsUsed = () => {
         </span>
       </div>
       <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-slate-50/90 shadow-sm	shadow-sky-100 ring ring-slate-100 sm:h-[88px] sm:w-[88px] mt-0">
-        <img
+        <Image
           alt="Javascript"
-          loading="lazy"
           width="64"
           height="64"
-          decoding="async"
-          className="w-8 h-auto shrink-0 sm:w-10"
-          style={{ color: "transparent" }}
           sizes="(min-width: 640px) 2.5rem, 2rem"
           src="/img/javascript.webp"
+          className="w-8 h-auto shrink-0 sm:w-10"
+          style={{ color: "transparent" }}
         />
       </div>
       <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-slate-50/90 shadow-sm	 shadow-sky-100 ring ring-slate-100 sm:h-[88px] sm:w-[88px] mt-8">
-        <img
+        <Image
           alt="HTML5"
-          loading="lazy"
           width="64"
           height="64"
-          decoding="async"
-          className="w-8 h-auto shrink-0 sm:w-10"
-          style={{ color: "transparent" }}
           sizes="(min-width: 640px) 2.5rem, 2rem"
           src="/img/html5.webp"
+          className="w-8 h-auto shrink-0 sm:w-10"
+          style={{ color: "transparent" }}
         />
       </div>
       <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-slate-50/90 shadow-sm	 shadow-sky-100 ring ring-slate-100 sm:h-[88px] sm:w-[88px] mt-16">
-        <img
+        <Image
           alt="CSS"
-          loading="lazy"
           width="64"
           height="64"
-          decoding="async"
-          className="w-8 h-auto shrink-0 sm:w-10"
-          style={{ color: "transparent" }}
           sizes="(min-width: 640px) 2.5rem, 2rem"
           src="/img/css.webp"
+          className="w-8 h-auto shrink-0 sm:w-10"
+          style={{ color: "transparent" }}
         />
       </div>
       <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-slate-50/90 shadow-sm	 shadow-sky-100 ring ring-slate-100 sm:h-[88px] sm:w-[88px] dHctbXQtMjQ">
-        <img
+        <Image
           alt="Tailwind CSS"
-          loading="lazy"
-          width="33"
-          height="20"
-          decoding="async"
-          className="w-8 h-auto shrink-0 sm:w-10"
-          style={{ color: "transparent" }}
+          width="64"
+          height="64"
           sizes="(min-width: 640px) 2.5rem, 2rem"
           src="/img/tailwindcss.png"
+          className="w-8 h-auto shrink-0 sm:w-10"
+          style={{ color: "transparent" }}
         />
       </div>
       <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-slate-50/90 shadow-sm	 shadow-sky-100 ring ring-slate-100 sm:h-[88px] sm:w-[88px] mt-16">
-        <img
+        <Image
           alt="React framework"
-          loading="lazy"
           width="64"
           height="64"
-          decoding="async"
-          className="w-8 h-auto shrink-0 sm:w-10"
-          style={{ color: "transparent" }}
           sizes="(min-width: 640px) 2.5rem, 2rem"
           src="/img/react.png"
+          className="w-8 h-auto shrink-0 sm:w-10"
+          style={{ color: "transparent" }}
         />
       </div>
       <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-slate-50/90 shadow-sm	 shadow-sky-100 ring ring-slate-100 sm:h-[88px] sm:w-[88px] mt-8">
-        <img
+        <Image
           alt="Nextjs"
-          loading="lazy"
           width="64"
           height="64"
-          decoding="async"
-          className="w-8 h-auto shrink-0 sm:w-10"
-          style={{ color: "transparent" }}
           sizes="(min-width: 640px) 2.5rem, 2rem"
           src="/img/nextjs.png"
+          className="w-8 h-auto shrink-0 sm:w-10"
+          style={{ color: "transparent" }}
         />
       </div>
       <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-slate-50/90 shadow-sm	 shadow-sky-100 ring ring-slate-100 sm:h-[88px] sm:w-[88px] mt-0">
-        <img
+        <Image
           alt="MongoDB"
-          loading="lazy"
           width="64"
           height="64"
-          decoding="async"
-          className="w-8 h-auto shrink-0 sm:w-10"
-          style={{ color: "transparent" }}
           sizes="(min-width: 640px) 2.5rem, 2rem"
           src="/img/mongodb.png"
+          className="w-8 h-auto shrink-0 sm:w-10"
+          style={{ color: "transparent" }}
         />
       </div>
       <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-slate-50/90 shadow-sm	 shadow-sky-100 ring ring-slate-100 sm:h-[88px] sm:w-[88px] mt-8">
-        <img
+        <Image
           alt="NextAuth library"
-          loading="lazy"
           width="64"
           height="64"
-          decoding="async"
-          className="w-8 h-auto shrink-0 sm:w-10"
-          style={{ color: "transparent" }}
           sizes="(min-width: 640px) 2.5rem, 2rem"
           src="/img/next-auth.png"
+          className="w-8 h-auto shrink-0 sm:w-10"
+          style={{ color: "transparent" }}
         />
       </div>
       <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-slate-50/90 shadow-sm	 shadow-sky-100 ring ring-slate-100 sm:h-[88px] sm:w-[88px] mt-16">
-        <img
+        <Image
           alt="Redux toolkit"
-          loading="lazy"
           width="64"
           height="64"
-          decoding="async"
-          className="w-8 h-auto shrink-0 sm:w-10"
-          style={{ color: "transparent" }}
           sizes="(min-width: 640px) 2.5rem, 2rem"
           src="/img/redux-toolkit.png"
+          className="w-8 h-auto shrink-0 sm:w-10"
+          style={{ color: "transparent" }}
         />
       </div>
       <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-slate-50/90 shadow-sm	 shadow-sky-100 ring ring-slate-100 sm:h-[88px] sm:w-[88px] dHctbXQtMjQ">
-        <img
+        <Image
           alt="React router"
-          loading="lazy"
           width="64"
           height="64"
-          decoding="async"
-          className="w-8 h-auto shrink-0 sm:w-10"
-          style={{ color: "transparent" }}
           sizes="(min-width: 640px) 2.5rem, 2rem"
           src="/img/react-router.png"
+          className="w-8 h-auto shrink-0 sm:w-10"
+          style={{ color: "transparent" }}
         />
       </div>
       <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-slate-50/90 shadow-sm	 shadow-sky-100 ring ring-slate-100 sm:h-[88px] sm:w-[88px] mt-16">
-        <img
+        <Image
           alt="Firebase"
-          loading="lazy"
           width="64"
           height="64"
-          decoding="async"
-          className="w-8 h-auto shrink-0 sm:w-10"
-          style={{ color: "transparent" }}
           sizes="(min-width: 640px) 2.5rem, 2rem"
           src="/img/firebase.png"
+          className="w-8 h-auto shrink-0 sm:w-10"
+          style={{ color: "transparent" }}
         />
       </div>
       {/* <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-slate-50/90 shadow-sm	 shadow-sky-100 ring ring-slate-100 sm:h-[88px] sm:w-[88px] mt-8">
