@@ -13,7 +13,7 @@ const ContactPage = () => {
           <h1 className="text-4xl text-center font-landrygothic text-black uppercase">
             Choose your way to contact me
           </h1>
-          <div className="w-full justify-center mx-auto mt-24 flex items-center gap-3">
+          <div className="w-full justify-center mx-auto mt-24 flex-1 sm:flex items-center gap-3 space-y-3">
             <a
               target="_blank"
               className="flex shrink-0 items-center justify-center bg-white duration-200 border border-black rounded-full gap-3 h-14 px-6 font-semibold hover:bg-[#adff00]"
@@ -45,7 +45,7 @@ const ContactPage = () => {
             </a>
             <button
               onClick={() => copy("tomeksz104@gmail.com")}
-              className="flex shrink-0 items-center justify-center bg-white duration-200 border border-black rounded-full gap-3 h-14 px-6 font-semibold hover:bg-[#adff00]"
+              className="flex w-full sm:w-auto shrink-0 items-center justify-center bg-white duration-200 border border-black rounded-full gap-3 h-14 px-6 font-semibold hover:bg-[#adff00]"
               aria-label="Copy e-mail tomeksz104@gmail.com"
             >
               tomeksz104@gmail.com
