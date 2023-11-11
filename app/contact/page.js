@@ -2,12 +2,14 @@
 
 import Container from "@/components/Container";
 import { useCopyToClipboard } from "@/hooks/useCopyToClipboard";
+import toast, { Toaster } from "react-hot-toast";
 
 const ContactPage = () => {
   const [value, copy] = useCopyToClipboard();
 
   return (
     <section className="flex-1">
+      <Toaster />
       <Container>
         <div className="w-full mx-auto py-56">
           <h1 className="text-4xl text-center font-landrygothic text-black uppercase">

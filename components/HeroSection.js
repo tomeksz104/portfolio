@@ -42,7 +42,8 @@ const HeroSection = () => {
                 <a
                   className="relative flex items-center justify-center text-xs text-white gap-8 group"
                   aria-label="Download CV"
-                  href="#"
+                  href="/Tomasz_Szamocki_Resume.pdf"
+                  download="/Tomasz_Szamocki_Resume.pdf"
                 >
                   <span className="relative flex items-center justify-center rounded-full p-1.5 transition-all duration-300 before:-z-10 before:transition-all before:duration-300 group-hover:ml-3 bg-[#adff00] before:content-[''] before:absolute before:border before:border-white before:ml-10 group-hover:before:ml-0 before:h-full before:w-full before:rounded-full">
                     <Image
@@ -83,23 +84,19 @@ const HeroSection = () => {
             <h3 className="text-lg font-semibold">Check Me:</h3>
             <div className="mt-3 flex items-center gap-3">
               <a
+                target="_blank"
                 className="flex shrink-0 items-center justify-center bg-white duration-200 border border-black rounded-full h-14 w-14 font-semibold hover:bg-[#adff00]"
                 aria-label="Check on GitHub"
-                href="#"
+                href="https://github.com/tomeksz104"
               >
                 Git
               </a>
+
               <a
-                className="flex shrink-0 items-center justify-center bg-white duration-200 border border-black rounded-full h-14 w-14 font-semibold hover:bg-[#adff00]"
-                aria-label="Check on Twitter"
-                href="#"
-              >
-                Tw.
-              </a>
-              <a
+                target="_blank"
                 className="flex shrink-0 items-center justify-center bg-white duration-200 border border-black rounded-full h-14 w-14 font-semibold hover:bg-[#adff00]"
                 aria-label="Check on LinkedIn"
-                href="#"
+                href="https://www.linkedin.com/in/tomasz-szamocki-5679a6208/"
               >
                 In.
               </a>

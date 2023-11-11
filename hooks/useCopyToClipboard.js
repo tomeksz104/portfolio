@@ -1,5 +1,9 @@
 import { useState } from "react";
 
+import toast, { Toaster } from "react-hot-toast";
+
+const notify = () => toast.success("Copied to clipboard!");
+
 export function useCopyToClipboard() {
   const [copiedText, setCopiedText] = useState(null);
 
@@ -13,6 +17,7 @@ export function useCopyToClipboard() {
     try {
       await navigator.clipboard.writeText(text);
       setCopiedText(text);
+      notify();
       return true;
     } catch (error) {
       console.warn("Copy failed", error);
