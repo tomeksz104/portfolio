@@ -15,7 +15,7 @@ const ContactPage = () => {
           <h1 className="text-4xl text-center font-landrygothic text-black uppercase">
             Choose your way to contact me
           </h1>
-          <div className="w-full justify-center mx-auto mt-24 flex-1 sm:flex items-center gap-3 space-y-3">
+          <div className="w-full justify-center mx-auto mt-24 flex-1 sm:flex items-center gap-3 space-y-3 sm:space-y-0">
             <a
               target="_blank"
               className="flex shrink-0 items-center justify-center bg-white duration-200 border border-black rounded-full gap-3 h-14 px-6 font-semibold hover:bg-[#adff00]"

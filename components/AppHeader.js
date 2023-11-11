@@ -14,12 +14,12 @@ export const links = [
     label: "Home",
   },
   {
-    to: "/about",
+    to: "#about",
     section: "about",
     label: "About",
   },
   {
-    to: "/projects",
+    to: "#projects",
     section: "projects",
     label: "Projects",
   },
@@ -41,7 +41,7 @@ const AppHeader = () => {
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     } else {
-      router.push("/");
+      router.push(`/#${section}`);
     }
   };
 
