@@ -1,11 +1,12 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Container from "./Container";
 import Button from "./Button";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 
 export const links = [
   {
@@ -27,6 +28,7 @@ export const links = [
 
 const AppHeader = () => {
   const router = useRouter();
+  const pathname = usePathname();
   const [isToggled, setIsToggled] = useState(false);
 
   const handleToggleMenu = () => {
@@ -44,6 +46,10 @@ const AppHeader = () => {
       router.push(`/#${section}`);
     }
   };
+
+  useEffect(() => {
+    setIsToggled(false);
+  }, [pathname]);
 
   return (
     <header>
@@ -119,7 +125,10 @@ const AppHeader = () => {
               </div>
 
               <div className="mt-12 lg:mt-0">
-                <Button onClickTo="/contact" className="before:bg-[#adff00]">
+                <Button
+                  onClickTo="/contact"
+                  className="w-full before:bg-[#adff00]"
+                >
                   Contact Me
                 </Button>
               </div>
