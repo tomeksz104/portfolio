@@ -22,6 +22,7 @@ const HeroSection = () => {
             </p>
             <div className="flex flex-wrap items-center justify-center mt-10 gap-10 lg:justify-start">
               <Button
+                ariaLabel="Let's Talk"
                 onClickTo="/contact"
                 className="before:bg-[#adff00]"
                 classes="flex items-center gap-3"
@@ -63,14 +64,14 @@ const HeroSection = () => {
           <div className="w-full max-w-lg mx-auto lg:absolute lg:right-0 lg:bottom-0 lg:mr-0 mt-10 -mb-96">
             <div className="relative rounded-lg">
               <Image
+                loading="eager"
+                alt="Photo showing Tomasz Szamocki"
                 width={0}
                 height={0}
                 sizes="(min-width: 552px) 32rem, calc(100vw - 2.5rem)"
-                src="/img/hero-photo-tomek.png"
+                src="/img/hero-photo-tomek.webp"
                 className="w-full h-full rounded-lg"
                 style={{
-                  height: "100%",
-                  width: "100%",
                   left: 0,
                   top: 0,
                   right: 0,
@@ -81,7 +82,7 @@ const HeroSection = () => {
             </div>
           </div>
           <div className="hidden lg:block w-full max-w-xl xl:max-w-2xl  absolute bottom-0 left-0 -mb-80 px-5 sm:px-6 lg:px-8">
-            <h3 className="text-lg font-semibold">Check Me:</h3>
+            <h2 className="text-lg font-semibold">Check Me:</h2>
             <div className="mt-3 flex items-center gap-3">
               <a
                 target="_blank"

@@ -12,12 +12,14 @@
 
 @font-face {
   font-family: "LandryGothic";
-  src: url("/fonts/LandryGothic.TTF");
+  src: url("/fonts/LandryGothic.woff2") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "GochiHand";
-  src: url("/fonts/GochiHand-Regular.TTF");
+  src: url("/fonts/GochiHand-Regular.woff2");
+  font-display: swap;
 }
 
 /* :root {

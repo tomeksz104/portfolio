@@ -5,6 +5,7 @@ const nextConfig = {
     loader: "custom",
     loaderFile: "./ImageLoader.js",
   },
+  experimental: { optimizeCss: true },
 };
 
 module.exports = nextConfig;

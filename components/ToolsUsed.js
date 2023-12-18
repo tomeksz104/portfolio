@@ -73,7 +73,7 @@ const ToolsUsed = () => {
           width="64"
           height="64"
           sizes="(min-width: 640px) 2.5rem, 2rem"
-          src="/img/react.png"
+          src="/img/react.webp"
           className="w-8 h-auto shrink-0 sm:w-10"
           style={{ color: "transparent" }}
         />
@@ -84,7 +84,7 @@ const ToolsUsed = () => {
           width="64"
           height="64"
           sizes="(min-width: 640px) 2.5rem, 2rem"
-          src="/img/nextjs.png"
+          src="/img/nextjs.webp"
           className="w-8 h-auto shrink-0 sm:w-10"
           style={{ color: "transparent" }}
         />

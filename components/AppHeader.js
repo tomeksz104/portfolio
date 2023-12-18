@@ -59,7 +59,7 @@ const AppHeader = () => {
             <div className="relative z-20 flex w-full justify-between md:px-0 lg:w-max">
               <Link
                 aria-current="page"
-                className="flex items-center gap-5 text-white mr-5 cursor-pointer font-landrygothic"
+                className="flex items-center gap-5 text-white mr-5 cursor-pointer  font-landrygothic"
                 href="/"
               >
                 <Image
@@ -76,7 +76,7 @@ const AppHeader = () => {
               <div className="relative flex max-h-10 items-center lg:hidden">
                 <button
                   onClick={handleToggleMenu}
-                  aria-label="humburger"
+                  aria-label="Toggle hamburger menu"
                   id="hamburger"
                   className={`relative -mr-6 p-6 ${isToggled && "toggled"}`}
                 >
@@ -112,6 +112,7 @@ const AppHeader = () => {
                   {links.map((link, index) => (
                     <li key={index}>
                       <button
+                        aria-label={`Go to ${link.label}`}
                         onClick={() => {
                           handleClickScroll(link.section);
                         }}
@@ -126,6 +127,7 @@ const AppHeader = () => {
 
               <div className="mt-12 lg:mt-0">
                 <Button
+                  ariaLabel="Go to contact page"
                   onClickTo="/contact"
                   className="w-full before:bg-[#adff00]"
                 >

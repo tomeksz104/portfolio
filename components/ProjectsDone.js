@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Button from "./Button";
 import Image from "next/image";
 
@@ -31,6 +30,7 @@ const ProjectsDone = () => {
                 >
                   <span className="bg-white rounded-full p-1.5">
                     <Image
+                      alt=""
                       width={0}
                       height={0}
                       sizes="100vw"
@@ -49,6 +49,7 @@ const ProjectsDone = () => {
                   >
                     <span className="twice-circle relative flex items-center justify-center rounded-full p-1.5 transition-all duration-300 before:transition-all before:duration-300 group-hover:ml-3 bg-[#754af8] before:content-[''] before:absolute before:border before:border-black before:ml-10 group-hover:before:ml-0 before:h-full before:w-full before:rounded-full">
                       <Image
+                        alt=""
                         width={0}
                         height={0}
                         sizes="100vw"
@@ -71,7 +72,7 @@ const ProjectsDone = () => {
                 width={0}
                 height={0}
                 sizes="(min-width: 1280px) 43rem, (min-width: 1024px) calc(50vw - 3.5rem), (min-width: 640px) 32rem, calc(100vw - 4.5rem)"
-                src="/img/tour-project.png"
+                src="/img/tour-project.webp"
                 className="absolute inset-x-0 bottom-0 object-cover object-top transition duration-300 top-16 group-hover:scale-105	"
                 style={{
                   position: "absolute",
@@ -105,6 +106,7 @@ const ProjectsDone = () => {
                   >
                     <span className="bg-white rounded-full p-1.5">
                       <Image
+                        alt=""
                         width={0}
                         height={0}
                         sizes="100vw"
@@ -123,6 +125,7 @@ const ProjectsDone = () => {
                     >
                       <span className="twice-circle relative flex items-center justify-center rounded-full p-1.5 transition-all duration-300 before:transition-all before:duration-300 group-hover:ml-3 bg-[#754af8] before:content-[''] before:absolute before:border before:border-black before:ml-10 group-hover:before:ml-0 before:h-full before:w-full before:rounded-full">
                         <Image
+                          alt=""
                           width={0}
                           height={0}
                           sizes="100vw"
@@ -146,7 +149,7 @@ const ProjectsDone = () => {
                 width={0}
                 height={0}
                 sizes="(min-width: 1280px) 43rem, (min-width: 1024px) calc(50vw - 3.5rem), (min-width: 640px) 32rem, calc(100vw - 4.5rem)"
-                src="/img/cryptotracker-project.png"
+                src="/img/cryptotracker-project.webp"
                 className="absolute inset-x-0 bottom-0 object-cover object-top transition duration-300 top-16 group-hover:scale-105	"
                 style={{
                   position: "absolute",

@@ -12,11 +12,13 @@ const CallToAction = () => {
           Let's work <br /> together
         </h2>
         <button
+          aria-label="Go to contact page"
           onClick={() => router.push("/contact")}
           className="bg-[#adff00] rounded-full p-1.5 shadow-sm duration-300 hover:scale-110 pointer-events-auto"
         >
           <Image
             alt=""
+            aria-hidden="true"
             width={0}
             height={0}
             sizes="100vw"
